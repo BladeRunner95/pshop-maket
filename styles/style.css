@@ -1,5 +1,34 @@
-p {
-	color: red;
-	width: 500px;
-	border: 1px solid black;
+body{margin: 0px;
 }
+
+header{
+	height: 72px;
+	width: 100%;
+	background-color: black;
+}
+
+.navdiv{
+	width: 940px;
+	height: 72px;
+	margin: 0 auto;
+	padding-top: 25px;
+}
+
+.limenu{
+color: white;
+list-style: none;
+}
+
+.ul-menu li{
+
+}
+.menu li{
+padding: 10px;
+display: inline;
+
+}
+
+p {
+	color: white;
+	width: 500px;
+	}
