@@ -1,22 +1,23 @@
 
 body{
-	margin: 0px;
 	font-family: 'PT Sans Narrow', sans-serif;
     font-size: 14px;
     color: white;
 }
 
 .header{
-    background: black;  
+    background: black;
+    top: 0px;
     height: 72px;
-    color: white;
+    width: 100%;
+    position: fixed;
 }
 
 .nav-menu-wrapper{
     width: 940px;
     height: 72px;
     margin: 0 auto;
-    padding-top: 25px; 
+    padding-top: 25px;
 }
 
 .nav-menu{
@@ -43,38 +44,131 @@ body{
 
 .logo{
     display: block;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
 }
 
+.advan{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly; 
+    margin-top: 50px;
+}
+
 .advantage{
-    display: inline-flex;
     margin-left: 0 auto;
     margin-right: 0 auto;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.divsadvan{
+width: 33%;
+text-align: center;
+}
+
+.advtext{
+    margin-top: 35px;
+    line-height: 1.5;
+}
+
+.firstblank{
+    width: 940px;
+    background: white;
+    margin: 0 auto;
+    margin-top: 70px;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    padding: 45px 0px 15px 15px;
+}
+
+.leftfirstblank{
+    width: 45%;
+}
+
+.rightfirstblank{
+    width: 45%;
 }
 
 
-/* .rombs{
-    margin-top: 30px;
-    margin-left: 295px;
-    display: inline-flex;
-    padding: 15px;
+.titleblank{
     font-size: 30px;
-} */
+    text-align: center;
+    margin-bottom: 30px;
+}
 
-/* .mmm {
-	width: 60px;
-	height: 60px;
-	background-image: url(imgs/login.png);
-	background-position: button;
-	background-repeat: no-repeat;
-	display: block;
-	color: blue;
-} */
+.news{
+    line-height: 1.5;
+}
 
-/* 
-p {
-	color: white;
-	width: 500px;
-	} */
+.firstblankbuttons{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.firstblankrightbuttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 55px 20px 55px;
+
+}
+
+.continfo{
+    line-height: 1.5;
+}
+
+.continfotext{
+    padding-top: 15px;
+}
+
+.inputs{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px 25px 25px 25px;
+}
+
+.eachinput{
+    border: 2px solid black;
+    padding: 10px;
+    font-style: italic;
+}
+
+footer{
+    /* background-image: url("http://uploads.webflow.com/57e36039ab1957093a7f7785/57e3603aab1957093a7f77a3_bg-footer.jpg"); */
+    background-color: #232323;
+    /* background-image: url("imgs/footer.png"); */
+    margin-top: 50px;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px 30px 30px;
+    text-align: center;
+}
+
+.leftfooter{
+    width: 33%;
+}
+
+.centerfooter{
+    width: 33%;
+    padding: 0px 10px 0px 10px;
+
+}
+
+.imgs{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.imgs img{
+    margin-left: 15px;
+}
+
+.rightfooter{
+    width: 33%;
+}
