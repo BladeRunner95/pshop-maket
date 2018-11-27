@@ -5,31 +5,28 @@
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700&amp;subset=cyrillic" rel="stylesheet">
     <!-- <link href="normalize.css" rel="stylesheet"> -->
-    <link href="styles/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/bootstrap.css">
     <link href="styles/style.css" rel="stylesheet" type="text/css">
     <title>Barbershop</title>
 </head>
 
 <body background="imgs/Background.png" style="background-position: top; background-repeat: no-repeat;">
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top pb-3" style="background-color:black">
-        <div class="container-fluid ">
-            <ul class="nav navbar-nav">
-                <li class="nav-item"><a class="nav-link active" href="#info">ИНФОРМАЦИЯ</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#news">НОВОСТИ</a></li>
-                <li class="nav-item"><a class="nav-link active" href="price.html">ПРАЙС-ЛИСТ</a></li>
-                <li class="nav-item"><a class="nav-link active" href="">МАГАЗИН</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#contacts">КОНТАКТЫ</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li class="nav-item"><a class="nav-link active" href="">
-                        <img class="mr-2" src="imgs/login.png" alt="ВХОД">ВХОД
-                    </a>
+    <header class="header sticky-top">
+        <div class="nav-menu-wrapper">
+            <ul class="nav-menu">
+                <li><a href="#info">ИНФОРМАЦИЯ</li></a>
+                <li><a href="#news">НОВОСТИ</li></a>
+                <li><a href="price.html">ПРАЙС-ЛИСТ</li></a>
+                <li><a href="">МАГАЗИН</li></a>
+                <li><a href="#contacts">КОНТАКТЫ</li></a>
+                <li class="nav-menu-last-item"><a href="">
+                    <img src="imgs/login.png" alt="ВХОД">ВХОД
                 </li>
+                </a>
             </ul>
         </div>
-    </nav>
-
-    <div class="container"><img class="img-fluid mt-5 mx-auto d-block" id="info" src="imgs/index-logo.png"></div>
+    </header>
+    <img class="logo" id="info" src="imgs/index-logo.png">
     <section class="advan">
         <div class="divsadvan">
             <div class="advantage">БЫСТРО</div>
@@ -96,65 +93,65 @@
     <div class="firstblank" id="contacts">
         <div class="leftfirstblank">
             <div class="titleblank">КОНТАКТНАЯ ИНФОРМАЦИЯ</div>
-            <div class="continfo">
-                <p>БАРБЕРШОП «БОРОДИНСКИЙ»<br>
-                    АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br>
-                    ТЕЛЕФОН: +7 (495) 666-02-66<br>
-                    <p class="continfotext">ВРЕМЯ РАБОТЫ:<br>
-                        ПН—ПТ: С 10:00 ДО 22:00<br>
-                        СБ—ВС: С 10:00 ДО 19:00</p>
-            </div>
-            <div class="firstblankrightbuttons">
-                <a href="nikak.html" method="post"><img src="imgs/dest.png" alt="destin"></a>
-                <a href="" method="post"><img src="imgs/feedbck.png" alt="feedback"></a>
-            </div>
+                <div class="continfo">
+    <p>БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+    АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br>
+    ТЕЛЕФОН: +7 (495) 666-02-66<br>
+    <p class="continfotext">ВРЕМЯ РАБОТЫ:<br>
+    ПН—ПТ: С 10:00 ДО 22:00<br>
+    СБ—ВС: С 10:00 ДО 19:00</p>
+                </div>
+    <div class="firstblankrightbuttons">
+        <a href="nikak.html" method="post"><img src="imgs/dest.png" alt="destin"></a>
+        <a href="" method="post"><img src="imgs/feedbck.png" alt="feedback"></a>
+    </div>
         </div>
-        <div>
-            <img src="imgs/Layer 17 copy 2.png" alt="septum">
+            <div>
+                <img src="imgs/Layer 17 copy 2.png" alt="septum">
+            </div>
+            <div class="rightfirstblank">
+                <div class="titleblank">ЗАПИСАТЬСЯ</div>
+                    <div class="continfo">
+        УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ<br>
+        С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ
+                    </div>
+        <div class="inputs">
+            <input class="eachinput" type="text" placeholder="ИМЯ">
+            <input class="eachinput" type="text" placeholder="ДАТА">
         </div>
-        <div class="rightfirstblank">
-            <div class="titleblank">ЗАПИСАТЬСЯ</div>
-            <div class="continfo">
-                УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ<br>
-                С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ
-            </div>
-            <div class="inputs">
-                <input class="eachinput" type="text" placeholder="ИМЯ">
-                <input class="eachinput" type="text" placeholder="ДАТА">
-            </div>
             <div class="inputs">
                 <input class="eachinput" type="text" placeholder="ВРЕМЯ">
                 <input class="eachinput" type="text" placeholder="ТЕЛЕФОН">
             </div>
-            <div class="firstblankbuttons">
-                <a href="" method="post"><img src="imgs/push.png" alt="send">
-                </a>
+                <div class="firstblankbuttons">
+                    <a href="" method="post"><img src="imgs/push.png" alt="send">
+                    </a>
+                </div>
+        
             </div>
-
-        </div>
     </div>
-    <footer>
-        <div class="leftfooter">БАРБЕРШОП «БОРОДИНСКИЙ»<br>
-            КАК НАС НАЙТИ?<br>
-            АДРЕС: Г. САНКТ-ПЕТЕРБУРГ,<br>
-            УЛ. Б. КОНЮШЕННАЯ, Д. 19/8<br>
-            ТЕЛЕФОН: +7 (495) 666-02-66
-        </div>
-
-        <div class="centerfooter">ДАВАЙТЕ ДРУЖИТЬ!<br>
-            <div class="imgs">
-                <a href="https://vk.com/id17850295"><img src="imgs/vk.png" alt="vk"></a>
-                <a href="https://www.facebook.com/VadimBuldgn"><img src="imgs/facebook.png" alt="facebook"></a>
+<footer>
+<div class="leftfooter">БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+    КАК НАС НАЙТИ?<br> 
+    АДРЕС: Г. САНКТ-ПЕТЕРБУРГ,<br> 
+    УЛ. Б. КОНЮШЕННАЯ, Д. 19/8<br>
+    ТЕЛЕФОН: +7 (495) 666-02-66
+</div>
+    
+<div class="centerfooter">ДАВАЙТЕ ДРУЖИТЬ!<br>
+    <div class="imgs">
+        <a href="https://vk.com/id17850295"><img src="imgs/vk.png" alt="vk"></a>
+            <a href="https://www.facebook.com/VadimBuldgn"><img src="imgs/facebook.png" alt="facebook"></a>
                 <a href=""><img src="imgs/instagram.png" alt="instagram"></a>
-            </div>
+    </div>
 
-        </div>
-        <div class="rightfooter">РАЗРАБОТАНО:<br>
-            Булдыгин Вадим</div>
+</div>
+<div class="rightfooter">РАЗРАБОТАНО:<br>
+Булдыгин Вадим</div>
 
-        </div>
-    </footer>
-
+</div>
+</footer>
+    
 
 
 
